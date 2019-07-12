@@ -1,0 +1,57 @@
+.jumbotron{
+	background-image: url(http://localhost:8080/portfolio/assets/images/jumbotron.jpg);
+	background-size: cover;
+	height:640px;
+	margin-top: -75px;
+}
+
+.img-thumbnail{
+	margin-top:260px;
+	width:14em;
+	height:14em;
+	margin-bottom:20px;
+	}
+	
+section{
+	min-height:600px;
+	}
+	
+.portfolio{
+	background-color:#eee;
+	}
+
+footer{
+	background-color:#333;
+	width:100%;
+	height:50px;
+	padding:20px
+	}
+
+footer a{
+	color: #aaa;
+	}
+hr{
+	width:200px;
+	border-top:3px solid black;
+	}
+@media (max-width: 768px) {
+	
+.img-thumbnail{
+	margin-top:200px;
+	width:8em;
+	height:8em;
+	margin-bottom:20px;
+	}
+	
+.jumbotron{
+	height:440px;
+	}
+                
+.navbar{
+	background-color: #1d2124 !important;
+	}
+	
+	
+	
+	
+}
